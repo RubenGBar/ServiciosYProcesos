@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\EjemploFlask.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\EjemploFlask.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\Ejemplo3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo4.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\Ejemplo4.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo3.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\Ejemplo3.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo2.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\Ejemplo.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\EjemploFlask.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1938DC2F-09F1-4B33-9535-46AC8281FDAB}|Ejemplo\\Ejemplo.pyproj|solutionrelative:Ejemplo\\EjemploFlask.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 250,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EjemploFlask.py",
               "DocumentMoniker": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\EjemploFlask.py",
               "RelativeDocumentMoniker": "Ejemplo\\EjemploFlask.py",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ejemplo3.py",
               "DocumentMoniker": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo3.py",
               "RelativeDocumentMoniker": "Ejemplo\\Ejemplo3.py",
@@ -72,31 +72,34 @@
               "RelativeToolTip": "Ejemplo\\Ejemplo3.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-09-30T08:09:46.157Z"
+              "WhenOpened": "2024-09-30T08:09:46.157Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Ejemplo2.py",
               "DocumentMoniker": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo2.py",
               "RelativeDocumentMoniker": "Ejemplo\\Ejemplo2.py",
               "ToolTip": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo2.py",
               "RelativeToolTip": "Ejemplo\\Ejemplo2.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-09-30T07:54:27.607Z"
+              "WhenOpened": "2024-09-30T07:54:27.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Ejemplo.py",
               "DocumentMoniker": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo.py",
               "RelativeDocumentMoniker": "Ejemplo\\Ejemplo.py",
               "ToolTip": "C:\\Users\\rgarcia\\source\\repos\\Ejercicios-api\\Ejemplo\\Ejemplo.py",
               "RelativeToolTip": "Ejemplo\\Ejemplo.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-09-30T07:11:01.247Z"
+              "WhenOpened": "2024-09-30T07:11:01.247Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -107,6 +110,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }
