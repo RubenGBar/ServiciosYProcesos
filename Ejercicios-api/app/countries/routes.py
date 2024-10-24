@@ -13,7 +13,7 @@ def get_countries():
 def get_country(id):
     countries = leeFichero("country.json")
     for country in countries:
-        if country['id'] == id:
+        if country["id"] == id:
             return country, 200
     return {"error": "Country not found"}, 404
 
@@ -22,6 +22,6 @@ def get_countries(id):
     list = []
     countries = leeFichero("country.json")
     for country in countries:
-        if country['id'] == id:
+        if country["id"] == id:
             return country, 200
     return {"error": "Country not found"}, 404

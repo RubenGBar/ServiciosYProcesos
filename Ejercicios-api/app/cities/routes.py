@@ -14,7 +14,7 @@ def get_cities():
 def get_city(id):
     cities = leeFichero("cities.json")
     for city in cities:
-        if city['id'] == id:
+        if city["id"] == id:
             return city, 200
     return {"error": "Country not found"}, 404
 
@@ -23,7 +23,7 @@ def get_cities(id):
     list = []
     cities = leeFichero("cities.json")
     for city in cities:
-        if city['countryId'] == id:
+        if city["countryId"] == id:
             list.append(city)
     if len(list) > 0:
         return list, 200

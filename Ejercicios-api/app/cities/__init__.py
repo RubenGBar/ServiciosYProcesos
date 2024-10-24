@@ -10,7 +10,7 @@ rutaFichero = "app\\ficheros\\cities.json"
 def get_city(id):
     cities = leeFichero("cities.json")
     for city in cities:
-        if city['id'] == id:
+        if city["id"] == id:
             return city, 200
     return {"error": "Country not found"}, 404
 
