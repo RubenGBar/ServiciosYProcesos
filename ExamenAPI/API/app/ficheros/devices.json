@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Luz principal",
+    "tipo": "luz",
+    "estado": "apagado"
+  },
+  {
+    "id": 2,
+    "nombre": "Termostato de la sala",
+    "tipo": "termostato",
+    "estado": 22
+  }
+]
