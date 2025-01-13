@@ -5,7 +5,7 @@ from API.app.ficheros.leerEscribir import leerFichero, escribirFichero
 
 ruta = "app/ficheros/devices.json"
 
-dispositivosBP = Blueprint('dispositivosBP', __name__)
+dispositivosBP = Blueprint('dispositivos', __name__)
 
 # funcion para obtener todos los dispositivos
 @dispositivosBP.get('/')
