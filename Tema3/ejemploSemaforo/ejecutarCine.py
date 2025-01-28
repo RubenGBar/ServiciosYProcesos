@@ -1,6 +1,6 @@
 from time import sleep
 
-from ejemplo.cine import SalaCine
+from ejemploSemaforo.cine import SalaCine
 
 if __name__ == '__main__':
 

@@ -1,6 +1,6 @@
 import random
 
-from ejemplo.puente import PuenteEstrecho
+from ejemploSemaforo.puente import PuenteEstrecho
 
 if __name__ == '__main__':
 

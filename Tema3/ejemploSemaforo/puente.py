@@ -5,9 +5,8 @@ from time import sleep
 
 class PuenteEstrecho(Thread):
 
-    espacio = 1
-    semaforoN = Semaphore(espacio)
-    semaforoS = Semaphore(espacio)
+    semaforoN = Semaphore(1)
+    semaforoS = Semaphore(1)
 
     def __init__(self, nombreCoche, direccion):
         Thread.__init__(self)
@@ -20,11 +19,9 @@ class PuenteEstrecho(Thread):
 
             self.semaforoN.acquire()
             self.semaforoS.acquire()
-            self.espacio -= 1
-            print(f"El coche {self.nombreCoche} entró al puente Norte")
+            print(f"El coche {self.nombreCoche} entró al puente (Norte)")
             sleep(random.randint(1, 5))
-            self.espacio += 1
-            print(f"Ha salido del puente Norte el coche {self.nombreCoche}")
+            print(f"Ha salido del puente el coche {self.nombreCoche} (Norte)")
             self.semaforoN.release()
             self.semaforoS.release()
 
@@ -32,10 +29,8 @@ class PuenteEstrecho(Thread):
 
             self.semaforoS.acquire()
             self.semaforoN.acquire()
-            self.espacio -= 1
-            print(f"El coche {self.nombreCoche} entró al puente Sur")
+            print(f"El coche {self.nombreCoche} entró al puente (Sur)")
             sleep(random.randint(1, 5))
-            self.espacio += 1
-            print(f"Ha salido del puente Sur el coche {self.nombreCoche}")
+            print(f"Ha salido del puente el coche {self.nombreCoche} (Sur)")
             self.semaforoS.release()
             self.semaforoN.release()

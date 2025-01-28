@@ -1,4 +1,4 @@
-from ejemplo.banco import Banco
+from ejemploSemaforo.banco import Banco
 
 if __name__ == '__main__':
 
